@@ -35,7 +35,7 @@ public class Solution {
         ArrayList<ArrayList<Integer>> arrayList = new ArrayList<>();
         int count = 1;
 
-        for (; ; ) {
+        while (true) {
             arrayList.add(new ArrayList<>(modifiedList));
             getNewArray(modifiedList);
             if (arrayList.contains(modifiedList)) {
